@@ -1,0 +1,70 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+    }
+
+    body {
+        background-image: url(./image/background.jpg);
+        color: blueviolet;
+        font-weight: bold;
+    }
+
+    .container {
+        margin: 80px auto;
+        max-width: 640px;
+        width: 100%;
+        padding: 50px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 20px;
+        border-color: #ff00e1;
+        border-style: double;
+    }
+
+    h1{
+        text-align: center;
+        color: #ff00e1;
+    }
+
+    form {
+        margin-top: 40px;
+    }
+
+    input, button {
+        display: block;
+        padding: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        resize: none;
+        color: #ff00e1;
+    }
+
+    button {
+        background-color:#ff00e1;
+        border: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        font-style: italic;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: blueviolet;
+    }
+    
+    .mensagemsucesso {
+        background-color: blueviolet;
+        color: #fff;
+        padding: 16px;
+        display: none;
+    }
+
+    .mensagemerro {
+        background-color: blueviolet;
+        color: #fff;
+        padding: 16px;
+        display: none;
+    }
