@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 36px;
+    margin: 0;
+}
+
+input {
+    margin-top: 16px ;
+}
+
+ul {
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 0 auto;
+}
+
+li.concluida {
+    text-decoration: line-through;
+    color: #999;
+    animation: strikethrough 0.5s ease-in-out;
+}
